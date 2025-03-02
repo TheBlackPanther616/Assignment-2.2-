@@ -12,6 +12,7 @@ function RPSLS()
     var lizardImage = "Images/lizard.jpg";
     var spockImage = "Images/Spock.jpg";
 
+    // Creating paths to show which image is shown for Player 1
     if (player1 == 1)
         {
              document.getElementById("player1Img").src = rockImage;
@@ -32,7 +33,7 @@ function RPSLS()
                     {
                         document.getElementById("player1Img").src = spockImage;
                     }
-
+                    // Creating paths to show which image is shown for Player 2
                     if (player2 == 1)
                         {
                              document.getElementById("player2Img").src = rockImage;
