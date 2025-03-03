@@ -1,0 +1,30 @@
+body
+{
+    background-image: url(Images/BBT.jpg);
+    background-repeat: repeat;
+    
+
+}
+p
+{
+    background-color: transparent;
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(115, 2, 49);
+}
+button
+{
+    background-color: yellow;
+    border-color: crimson;
+    border-radius: 50px;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    cursor: crosshair;
+    color: red;
+}
+
+
